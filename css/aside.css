@@ -1,0 +1,92 @@
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+#left_aside {
+    color: #fff;
+    background: rgb(21, 21, 77);
+    border: solid 1px rgb(21, 21, 77);
+    float: left;
+    width: 198px;
+    height: fit-content;
+    padding-bottom: 20px;
+}
+#left_aside #left_logo:link, #left_logo:visited, #left_logo:hover, #left_logo:active {
+    color: #fff;
+}
+#left_aside #left_logo div {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    height: 30px;
+    padding-top: 20px;
+}
+#left_aside #loginbox{
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+}
+#left_aside #loginbox #login{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(36, 55, 141);
+    margin: 5px auto;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+#left_aside #loginbox #sign {
+    margin: 15px;
+}
+#left_aside #loginbox #sign a{
+    color: #aaa;
+}
+#left_aside #loginbox #sign span {
+    color: white;
+    font-weight: bold;
+}
+#left_aside #searchbox {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#left_aside #searchbox #search_text {
+    width: 130px;
+    height: 20px;
+    padding-left: 5px;
+}
+#left_aside #searchbox #search_btn {
+    cursor: pointer;
+    color: white;
+    height: 24px;
+    background: rgb(36, 55, 141);
+    border: none;
+    padding: 0 3px;
+}
+#left_aside dt {
+    margin-top: 20px;
+    background-color: rgb(36, 55, 141);
+    padding: 7px;
+    padding-left: 15px;
+    font-weight: bold;
+    border-top: solid 2px yellow;
+}
+#left_aside dd  {
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 13px;
+
+}
+#left_aside dd a {
+    font-size: 13px;
+    color: #aaa;
+}
+#left_aside dd a:hover {
+    text-decoration: underline;
+}
+#left_aside dd li {
+    font-size: 13px;
+    color: #aaa;
+    margin-top: 6px;
+    padding-left: 10px;
+}

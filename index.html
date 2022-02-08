@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOSMO온라인 커뮤니티</title>
+    <link rel="stylesheet" href="CSS/common.css", type="text/css">
+    <link rel="stylesheet" href="CSS/header.css", type="text/css">
+    <link rel="stylesheet" href="CSS/aside.css", type="text/css">
+    <link rel="stylesheet" href="CSS/main.css", type="text/css">
+    <link rel="stylesheet" href="CSS/footer.css", type="text/css">
+    <script src="javascript/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="javascript/main.js"></script>
+</head>
+<body>
+    <header>
+        <section id="top">
+            <nav id="dif_site">
+                <ul>
+                    <li><a href="index.html">KOSMO 온라인 커뮤니티</a> <span class="dash">|</span></li>
+                    <li><a href="../shop/index.html">KOSMOA</a></li>
+                </ul>
+            </nav>
+            <nav id="top_log">
+                <ul>
+                    <li><a href="#">회원가입</a> <span class="dash">|</span></li>
+                    <li><a href="#">로그인</a> <span class="dash">|</span></li>
+                    <li><a href="#">즐겨찾기</a></li>
+                </ul>
+            </nav>
+        </section>  <!--top-->
+        <div id="bg"></div>
+        <section id="logo_mainmenu">
+            <a href="index.html" id="logo"><img src="img/logo.png" width="200px"></a>
+            <div class="clear"></div>
+            <nav id="main_menu">
+                <a href="index.html" id="main_menu1"><div>HOME</div></a>
+                <a href="#"><div>가이드</div></a>
+                <a href="#"><div>직업&기술</div></a>
+                <a href="#"><div>아이템</div></a>
+                <a href="#"><div>퀘스트</div></a>
+                <a href="#"><div>던전</div></a>
+                <a href="#"><div>업적</div></a>
+                <a href="#"><div>에드온</div></a>
+                </ul>
+            </nav>
+        </section>  <!--logo_mainmenu-->
+    </header>
+    <div class="clear"></div>
+    <main>
+        <aside id="left_aside">
+            <a href="index.html" id="left_logo"><div>KOSMO온라인</div></a>
+            <div id="loginbox">
+                로그인 하시고<br> <span class="yellow">다양한 혜택</span>을 누리세요.
+                <a href="#"><div id="login">LOGIN</div></a>
+                <p id="sign"><a href="#">회원가입</a> <span>|</span> <a href="">ID/PW 찾기</a></p>
+            </div>
+            <div id="searchbox">
+                <form action="#">
+                    <input type="text" placeholder="통합검색" id="search_text"><input type="submit" value="검색" id="search_btn">
+                </form>
+            </div>
+            <dl>
+                <dt>KOSMO 뉴스/이슈</dt>
+                <dd><a href="#">소식/공지사항</a></dd>
+                <dd><a href="#"><b class="yellow">업데이트</b></a></dd>
+                <dd><a href="#">인증 게시물</a></dd>
+                <dt>정보 공유</dt>
+                <dd><a href="#"><b class="yellow">팁과 노하우</b></a></dd>
+                <dd>
+                    <b class="white">직업 게시판</b>
+                    <ul>
+                        <li>ㄴ <a href="#">탱커 게시판</a></li>
+                        <li>ㄴ <a href="#">힐러 게시판</a></li>
+                        <li>ㄴ <a href="#">딜러 게시판</a></li>
+                    </ul>
+                </dd>
+                <dd><a href="#"><p style="color: aqua;">에드온 게시판</p></a></dd>
+                <dt>KOSMO 커뮤니티</dt>
+                <dd><a href="sub.html"><b class="yellow">자유 게시판</b></a></dd>
+                <dd><a href="#"><b class="green">QnA 게시판</b></a></dd>
+                <dd><a href="#">파티찾기 게시판</a></dd>
+                <dd><a href="#">친구찾기 게시판</a></dd>
+                <dd><a href="#"><p class="white">길드 홍보</p></a></dd>
+                <dd><a href="#">사건/사고 게시판</a></dd>
+                <dt>미디어 겔러리</dt>
+                <dd><a href="#"><b class="green">영상 겔러리</b></a></dd>
+                <dd><a href="#"><b class="yellow">스샷 겔러리</b></a></dd>
+                <dd><a href="#">팬아트 겔러리</a></dd>
+                <dd><a href="#"><b style="color: rgb(248, 248, 165);">커스터마이징 자랑</b></a></dd>
+            </dl>
+        </aside>    <!--left aside-->
+        <section id="main">
+            <article id="news">
+                <a href="#">
+                    <div>
+                        <p class="subject">1.1 패치</p>
+                        <p class="content">새로운 세계</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p class="subject">1.1 패치</p>
+                        <p class="content">새로운 세계</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p class="subject">1.1 패치</p>
+                        <p class="content">새로운 세계</p>
+                    </div>
+                </a>
+            </article>
+            <article class="board">
+                <h4>자유 게시판</h4>
+                <span id="more"><a href="sub.html">+more</a></span>
+                <div class="clear"></div>
+                <div class="line"></div>
+                <ul>
+                    <li><a href="#">
+                        <div class="blue">잡담</div>
+                        <div>첫 번째 자유게시글</div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                </ul>
+            </article>  <!--자유게시판-->
+            <article class="board">
+                <h4>QnA 게시판</h4>
+                <span id="more"><a href="#">+more</a></span>
+                <div class="clear"></div>
+                <div class="line"></div>
+                <ul>
+                    <li><a href="#">
+                        <div class="blue">질문</div>
+                        <div>첫 번째 질문글</div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li class="g_end"><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                </ul>
+            </article>  <!--QnA 게시판-->
+            <article class="board">
+                <h4>팁과 노하우</h4>
+                <span id="more"><a href="#">+more</a></span>
+                <div class="clear"></div>
+                <div class="line"></div>
+                <ul>
+                    <li><a href="#">
+                        <div class="blue">던전</div>
+                        <div>첫 번째 공략글</div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                </ul>
+            </article>
+            <article class="board">
+                <h4>직업 게시판</h4>
+                <div class="clear"></div>
+                <div class="line"></div>
+                <ul>
+                    <li id="job">
+                        <div class="j" id="tank">탱커 역할</div>
+                        <div class="l">|</div>
+                        <div class="j" id="heal">힐러 역할</div>
+                        <div class="l">|</div>
+                        <div class="j" id="deal">딜러 역할</div>
+                    </li>
+                </ul>
+                <ul id="tank_g">
+                    <a href="#"><li>
+                        <div class="blue">전사</div>
+                        <div>첫 탱커 게시판 글</div>
+                    </li></a>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                </ul>
+                <ul id="heal_g">
+                    <a href="#"><li>
+                        <div class="blue">사제</div>
+                        <div>첫 힐러 게시판 글</div>
+                    </li></a>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                </ul>
+                <ul id="deal_g">
+                    <a href="#"><li>
+                        <div class="blue">도적</div>
+                        <div>첫 딜러 게시판 글</div>
+                    </li></a>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                    <li><a href="#">
+                        <div></div>
+                        <div></div>
+                    </a></li>
+                </ul>
+            </article>
+        </section>  <!--main-->
+        <div class="clear"></div>
+        <section id="ad">
+            <div><b class="white">이 위치에 광고를 원하시면<br>지금바로 <span class="yellow">신청</span>하세요.</b></div>
+        </section>  <!--광고-->
+    </main>
+    <div class="clear"></div>
+    <footer>
+        <ul id="foot_menu">
+            <li><a href="#">회사 소개</a> &nbsp;&nbsp;|&nbsp;&nbsp;</li>
+            <li><a href="#">광고문의</a> &nbsp;&nbsp;|&nbsp;&nbsp;</li>
+            <li><a href="#">이용약관</a> &nbsp;&nbsp;|&nbsp;&nbsp;</li>
+            <li><a href="#"><b>개인정보처리방침</b></a> &nbsp;&nbsp;|&nbsp;&nbsp;</li>
+            <li><a href="#">찾아오시는길</a> &nbsp;&nbsp;|&nbsp;&nbsp;</li>
+            <li><a href="#">공지사항</a></li>
+        </ul>
+        <section id="info">
+            <img src="img/logo.png" width="100px">
+            <ul>
+                <li>회사명 : KOSMO온라인 커뮤니티</li>
+                <li>주소 : 서울특별시 00구 00로 0번길 00빌딩 4층</li>
+                <li>전화번호 : 010-0000-0000 | 이메일 : e-main@email.com</li>
+                <li>All copyright are not reserved</li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>

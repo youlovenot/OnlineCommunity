@@ -1,0 +1,124 @@
+main .board {
+    background-color: white;
+    width: 793px;
+    height: fit-content;
+    float: left;
+}
+main .board h1 {
+    margin: 10px;
+    background: linear-gradient(to right, rgb(36, 55, 141), rgb(36, 55, 141),black) ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+main .board #news .news_b{
+    /*border: solid 1px red;*/
+    margin: 10px 0 10px 10px;
+    display: inline-block;
+    width: 370px;
+}
+main .board #news h4 {
+    float: left;
+    color: rgb(36, 55, 141);
+}
+main .board #news #more a {
+    padding: 2px 5px 0 0;
+    font-size: 12px;
+    color: #aaa;
+    float: right;
+}
+.board #news .content {
+    margin: 10px 0px;
+    border: solid 1px #aaa;
+    padding: 5px;
+}
+.board #news .content li {
+    display: inline-block;
+    font-size: 13px;
+}
+.board #list_write {
+    float: right;
+    margin: 10px;
+}
+.board #list_write img{
+    height: 30px;
+}
+.board #select_category {
+    border-top: solid 1px black;
+    background: #eee;
+    margin: 0 10px;
+    padding-left: 20px;
+}
+.board #select_category .cate {
+    padding: 1px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.board #select_category div{
+    display: inline-block;
+    margin: 10px 3px;
+    color: #555;
+}
+.board table, .board tr, .board th, .board td {
+    border-collapse: collapse;
+    height: 35px;
+}
+.board table{
+    margin: 0 auto 20px auto;
+}
+.board tr {
+    border-bottom: solid 1px #eee;
+}
+.board .noti {
+    background: #eee;
+}
+.board td {
+    font-size: 13px;
+}
+.board td.col1 {
+    text-align: center;
+    width: 80px;
+}
+.board td.col2 {
+    width: 406px;
+}
+.board td.col3 {
+    text-align: center;
+    width: 100px;
+}
+.board td.col4 {
+    text-align: center;
+    width: 60px;
+}
+.board td.col5 {
+    text-align: center;
+    width: 60px;
+}
+.board td.col6 {
+    text-align: center;
+    width: 60px;
+}
+.board #page_sel {
+    text-align: center;
+}
+.board #page_sel li {
+    display: inline-block;
+    margin: 10px;
+}
+.board #b_search {
+    text-align: center;
+    margin: 10px 0 100px 0;
+}
+.board #b_search select {
+    width: 120px;
+    padding: 10px;
+}
+.board #b_search #b_sear {
+    width: 200px;
+    padding: 10px;
+}
+.board #b_search #b_sear_btn {
+    padding: 10px;
+    background-color: white;
+    border: solid 1px #555;
+}

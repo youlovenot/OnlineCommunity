@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration:none;
+    color:black;
+}
+body {
+    font-family:"맑은 고딕", "돋움";
+    font-size:15px;
+    color:black;
+}
+ul {
+    list-style-type:none;
+}
+.clear {
+    clear:both;
+}
+.dash {
+    color: #999;
+}
+.line {
+    border-bottom: black solid 1px;
+}
+.yellow {
+    color: yellow;
+}
+.white {
+    color: white;
+}
+.green {
+    color: rgb(0, 255, 55);
+}
+.blue {
+    color: rgb(73, 131, 255);
+}
+.red {
+    color: red;
+}
